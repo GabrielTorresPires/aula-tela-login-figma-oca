@@ -1,3 +1,8 @@
+ @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
 .cxtopo {
 
     position: absolute;
@@ -13,13 +18,36 @@
 
 }
 
+.cxdireita {
+
+    position: absolute;
+    width: 553px;
+    height: 402px;
+    left: 184px;
+    top: 444px;
+    background: rgba(83, 127, 231, 0.8);
+
+}
+
+.cxesquerda {
+
+    position: absolute;
+    width: 553px;
+    height: 402px;
+    left: 737px;
+    top: 444px;
+    
+    background: rgba(222, 232, 255, 0.8);
+
+
+}
 
 .logo {
     position: absolute;
     width: 377px;
     height: 174px;
     left: 537px;
-    top: 211px;
+    top: 65px;
     
     font-family: 'Anton';
     font-style: normal;
@@ -41,7 +69,7 @@
     width: 377px;
     height: 174px;
     left: 531px;
-    top: 188px;
+    top: 40px;
     
     font-family: 'Anton';
     font-style: normal;
@@ -61,7 +89,7 @@
     width: 89px;
     height: 0px;
     left: 475px;
-    top: 400px;
+    top: 250px;
     
     border: 3px solid #537FE7;
     transform: rotate(-180deg);
@@ -73,9 +101,8 @@
     position: absolute;
     width: 89px;
     height: 0px;
-    left: 1010px;
-    top: 400px;
-
+    left: 890px;
+    top: 250px;
     border: 3px solid #000000;
     transform: rotate(-180deg);
 
@@ -87,22 +114,17 @@
 .subtitulo {
 
     position: absolute;
-    width: 226px;
+    width: 500px;
     height: 31px;
-    left: 612px;
-    top: 420px;
-
+    left: 475px;
+    top: 300px;
     font-family: 'Antonio';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
-    /* identical to box height */
-
     text-align: center;
-
     color: #000000;
-
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 
@@ -116,14 +138,12 @@
     height: 82px;
     left: 181px;
     top: 420px;
-    
     font-family: 'Antonio';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     text-align: center;
-    
     color: #F6F1F1;
 }
 
@@ -135,17 +155,14 @@
     height: 27px;
     left: 246px;
     top: 536px;
-    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     text-align: center;
-    
-    color: #000000;
+    color: #F6F1F1;
 }
-
 
 .cxlogin {
 
@@ -154,9 +171,7 @@
     height: 39px;
     left: 246px;
     top: 578px;
-
     background: #FFFFFF;
-    filter: blur(2px);
     border-radius: 19px;
 }
 
@@ -167,15 +182,13 @@
     height: 27px;
     left: 246px;
     top: 645px;
-    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 27px;
     text-align: center;
-    
-    color: #000000;
+    color: #F6F1F1;
 }
 
 .cxsenha {
@@ -187,7 +200,6 @@
     top: 690px;
 
     background: #FFFFFF;
-    filter: blur(2px);
     border-radius: 19px;
 }
 
@@ -195,27 +207,42 @@
 .cxentrar {
 
     position: absolute;
-    width: 259px;
-    height: 49px;
+    width: 300px;
+    height: 50px;
     left: 290px;
-    top: 776px;
-    
+    top: 600px;
     background: #252A35;
     border-radius: 9px;
+    
     position: absolute;
-    width: 203px;
-    height: 82px;
+    width: 250px;
+    height: 40px;
     left: 318px;
-    top: 784px;
-
+    top: 780px;
     font-family: 'Antonio';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 31px;
     text-align: center;
-
     color: #FFFFFF;
+}
+
+.check {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 18px;
+    height: 16px;
+    left: 257px;
+    top: 744px;
+    
+    background: #FFFFFF;
+    border: 1px solid #252A35;
+    border-radius: 3px; 
+
+
 }
 
 .remember-me {
@@ -225,17 +252,13 @@
     height: 18px;
     left: 283px;
     top: 743px;
-
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
     line-height: 18px;
-    /* identical to box height */
-
     text-align: center;
-
-    color: #000000;
+    color: #F6F1F1
 
 }
 
@@ -245,19 +268,32 @@
     width: 115px;
     height: 18px;
     left: 473px;
-    top: 743px;
-    
+    top: 743px; 
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    line-height: 18px;
-    /* identical to box height */
-    
+    line-height: 18px;    
     text-align: center;
+    color: #F6F1F1;
     
-    color: #000000;
-    
+
+}
+
+.nTemConta {
+
+    position: absolute;
+    width: 194px;
+    height: 27px;
+    left: 786px;
+    top: 620px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #252A35;
 
 }
 
@@ -269,9 +305,105 @@
     height: 49px;
     left: 1001px;
     top: 592px;
-
     background: #7599EC;
     border-radius: 9px;
+    
+    position: absolute;
+    width: 245px;
+    height: 70px;
+    left: 1029px;
+    top: 600px;
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
 
 }
 
+.logarCom {
+
+    position: absolute;
+    width: 101px;
+    height: 27px;
+    left: 951px;
+    top: 700px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #252A35;
+
+}
+
+.usuario {
+
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    left: 200px;
+    top: 578px;
+
+    background: url(round-account-button-with-user-inside_icon-icons.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.chave {
+
+    position: absolute;
+    width: 44.33px;
+    height: 44.33px;
+    left: 200px;
+    top: 703.99px;
+    
+    background: url(emblemencryptedlocked_93479.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transform: rotate(-34.31deg);
+
+
+}
+
+
+
+
+.face {
+
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 869px;
+    top: 731px;
+
+    background: url(facebook_icon-icons.png);
+}
+
+.gmail {
+
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    left: 971px;
+    top: 724px;
+
+    background: url(Gmail_29991.png);
+}
+
+.apple {
+
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 1087px;
+    top: 725px;
+
+    background: url(social_apple_mac_65.png);
+
+
+}
