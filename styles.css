@@ -1,0 +1,277 @@
+.cxtopo {
+
+    position: absolute;
+    width: 1106px;
+    height: 334px;
+    left: 184px;
+    top: 109px;
+
+    background: #ECF9FF;
+    mix-blend-mode: normal;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+
+.logo {
+    position: absolute;
+    width: 377px;
+    height: 174px;
+    left: 537px;
+    top: 211px;
+    
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 125px;
+    line-height: 188px;
+    text-align: center;
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  
+    
+}
+
+.sombraLogo {
+
+    position: absolute;
+    width: 377px;
+    height: 174px;
+    left: 531px;
+    top: 188px;
+    
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 193px;
+    text-align: center;
+    color: #537FE7;
+
+}
+
+.setaEsquerda {
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 89px;
+    height: 0px;
+    left: 475px;
+    top: 400px;
+    
+    border: 3px solid #537FE7;
+    transform: rotate(-180deg);
+}
+
+.setaDireita {
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 89px;
+    height: 0px;
+    left: 1010px;
+    top: 400px;
+
+    border: 3px solid #000000;
+    transform: rotate(-180deg);
+
+
+}
+
+
+
+.subtitulo {
+
+    position: absolute;
+    width: 226px;
+    height: 31px;
+    left: 612px;
+    top: 420px;
+
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+
+}
+
+.tlogin {
+
+    position: absolute;
+    width: 203px;
+    height: 82px;
+    left: 181px;
+    top: 420px;
+    
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    
+    color: #F6F1F1;
+}
+
+
+.lLogin {
+
+    position: absolute;
+    width: 97px;
+    height: 27px;
+    left: 246px;
+    top: 536px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+
+.cxlogin {
+
+    position: absolute;
+    width: 346px;
+    height: 39px;
+    left: 246px;
+    top: 578px;
+
+    background: #FFFFFF;
+    filter: blur(2px);
+    border-radius: 19px;
+}
+
+.lsenha {
+
+    position: absolute;
+    width: 91px;
+    height: 27px;
+    left: 246px;
+    top: 645px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.cxsenha {
+
+    position: absolute;
+    width: 346px;
+    height: 39px;
+    left: 246px;
+    top: 690px;
+
+    background: #FFFFFF;
+    filter: blur(2px);
+    border-radius: 19px;
+}
+
+
+.cxentrar {
+
+    position: absolute;
+    width: 259px;
+    height: 49px;
+    left: 290px;
+    top: 776px;
+    
+    background: #252A35;
+    border-radius: 9px;
+    position: absolute;
+    width: 203px;
+    height: 82px;
+    left: 318px;
+    top: 784px;
+
+    font-family: 'Antonio';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.remember-me {
+
+    position: absolute;
+    width: 90px;
+    height: 18px;
+    left: 283px;
+    top: 743px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.esqueceu {
+
+    position: absolute;
+    width: 115px;
+    height: 18px;
+    left: 473px;
+    top: 743px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+    
+
+}
+
+
+.cadastrar {
+
+    position: absolute;
+    width: 259px;
+    height: 49px;
+    left: 1001px;
+    top: 592px;
+
+    background: #7599EC;
+    border-radius: 9px;
+
+}
+
